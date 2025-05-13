@@ -39,7 +39,7 @@ export default function Home() {
       {/* Header */}
       <header className="relative p-6 mb-8 text-center overflow-hidden rounded-b-3xl bg-gradient-to-r from-blue-500 to-indigo-600">
         <div className="relative z-10">
-          <h1 className="text-3xl font-bold text-white mb-1">Trakost</h1>
+          <h1 className="text-3xl font-bold text-white mb-1">PlanXpense</h1>
           <p className="text-blue-100">Plan your finances visually</p>
         </div>
         <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-white opacity-10 rounded-full"></div>
@@ -74,7 +74,7 @@ export default function Home() {
       </div>
 
       {/* <footer className="mt-12 text-center text-gray-500 text-sm p-4">
-        <p>Trakost &copy; {new Date().getFullYear()} | Your financial data is stored locally in your browser</p>
+        <p>PlanXpense &copy; {new Date().getFullYear()} | Your financial data is stored locally in your browser</p>
       </footer> */}
     </main>
   );
